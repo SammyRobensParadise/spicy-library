@@ -6,7 +6,6 @@ export interface ButtonInterface {
     onClick?: (event: MouseEvent<HTMLButtonElement>) => void
     label: string
     props: {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         [x: string]: any
     }
 }
@@ -16,7 +15,7 @@ export const Button = ({
     backgroundColor,
     label,
     ...props
-}: ButtonInterface): React.Element => {
+}: ButtonInterface) => {
     const mode = primary ? "bg-blue-500" : "bg-red-500"
     return (
         <button

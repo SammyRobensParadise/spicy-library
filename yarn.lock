@@ -11858,7 +11858,29 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss@npm:latest":
+"postcss@npm:5 - 7, postcss@npm:^7.0.0, postcss@npm:^7.0.1, postcss@npm:^7.0.14, postcss@npm:^7.0.26, postcss@npm:^7.0.27, postcss@npm:^7.0.32, postcss@npm:^7.0.35, postcss@npm:^7.0.5, postcss@npm:^7.0.6":
+  version: 7.0.35
+  resolution: "postcss@npm:7.0.35"
+  dependencies:
+    chalk: ^2.4.2
+    source-map: ^0.6.1
+    supports-color: ^6.1.0
+  checksum: 8a979ea9799dd48399337708a395ddb8cf0e328515201ed35c99f5ba5eaa7688eae65764c570bf49b5be0b106226e2f222abc210de068b3d3da9a9a3bbb70567
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^6.0.9":
+  version: 6.0.23
+  resolution: "postcss@npm:6.0.23"
+  dependencies:
+    chalk: ^2.4.1
+    source-map: ^0.6.1
+    supports-color: ^5.4.0
+  checksum: 9b61abdfb366491debc6a633ba3703ae43c674b6c1c64def54e131c8ec01862fc95b3271bde221db805389fc76c3b3f1447b5a9c1d0b332c53cfcc9bfe1b1fa6
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.1.6, postcss@npm:^8.2.1, postcss@npm:^8.2.4, postcss@npm:latest":
   version: 8.2.5
   resolution: "postcss@npm:8.2.5"
   dependencies:
@@ -13135,6 +13157,20 @@ resolve@1.17.0:
   languageName: node
   linkType: hard
 
+"rollup@npm:^2.38.5":
+  version: 2.38.5
+  resolution: "rollup@npm:2.38.5"
+  dependencies:
+    fsevents: ~2.3.1
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: b8ccad97a04f95f2459101c9b477e27f857fba5995d936728838da3728c2295aa396198b42fd254888057974589ba70a06e00feff7c1a1db992f0280914d695b
+  languageName: node
+  linkType: hard
+
 "rsvp@npm:^4.8.4":
   version: 4.8.5
   resolution: "rsvp@npm:4.8.5"
@@ -13686,6 +13722,7 @@ resolve@1.17.0:
     prettier: ^2.2.1
     react: ^17.0.1
     react-dom: ^17.0.1
+    rollup: ^2.38.5
     rollup-plugin-css-porter: ^1.0.2
     rollup-plugin-peer-deps-external: ^2.2.4
     rollup-plugin-styles: ^3.14.1
@@ -14088,12 +14125,21 @@ resolve@1.17.0:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^5.3.0":
+"supports-color@npm:^5.3.0, supports-color@npm:^5.4.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
   dependencies:
     has-flag: ^3.0.0
   checksum: edacee6425498440744c418be94b0660181aad2a1828bcf2be85c42bd385da2fd8b2b358d9b62b0c5b03ff5cd3e992458d7b8f879d9fb42f2201fe05a4848a29
+  languageName: node
+  linkType: hard
+
+"supports-color@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "supports-color@npm:6.1.0"
+  dependencies:
+    has-flag: ^3.0.0
+  checksum: 86821571295ad9f808d5e0149f13c2b0ca6faaf1325c427b369e6f4b2b1e4759046b7a4ea0e3c3c7f2546035fa2fb0d6a90f31c6c4f751eaedbcdc1b983a08cc
   languageName: node
   linkType: hard
 
