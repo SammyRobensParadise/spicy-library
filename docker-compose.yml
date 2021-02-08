@@ -1,0 +1,17 @@
+# docker-compose
+version: "3.9"
+
+services:
+    library:
+        container_name: library
+        build:
+            context: ./
+            dockerfile: lib.Dockerfile
+        ports:
+            - 6006:6006
+        healthcheck:
+            test: wget -O /dev/stdout localhost:6006
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 60s
