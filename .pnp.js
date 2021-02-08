@@ -69,6 +69,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-styles", "virtual:2a577940836c0bf2361ca9df773b55d29f8faa92b36e58c83353b72a2fb15aa2306c6dafae5e17f6fa997fca6d6042fe453385a7366fbc3dc57766e309a5e870#npm:3.14.1"],
             ["rollup-plugin-typescript2", "virtual:2a577940836c0bf2361ca9df773b55d29f8faa92b36e58c83353b72a2fb15aa2306c6dafae5e17f6fa997fca6d6042fe453385a7366fbc3dc57766e309a5e870#npm:0.29.0"],
             ["tailwindcss", "virtual:2a577940836c0bf2361ca9df773b55d29f8faa92b36e58c83353b72a2fb15aa2306c6dafae5e17f6fa997fca6d6042fe453385a7366fbc3dc57766e309a5e870#npm:2.0.3"],
+            ["tslib", "npm:2.1.0"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "linkType": "SOFT",
@@ -17427,6 +17428,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-styles", "virtual:2a577940836c0bf2361ca9df773b55d29f8faa92b36e58c83353b72a2fb15aa2306c6dafae5e17f6fa997fca6d6042fe453385a7366fbc3dc57766e309a5e870#npm:3.14.1"],
             ["rollup-plugin-typescript2", "virtual:2a577940836c0bf2361ca9df773b55d29f8faa92b36e58c83353b72a2fb15aa2306c6dafae5e17f6fa997fca6d6042fe453385a7366fbc3dc57766e309a5e870#npm:0.29.0"],
             ["tailwindcss", "virtual:2a577940836c0bf2361ca9df773b55d29f8faa92b36e58c83353b72a2fb15aa2306c6dafae5e17f6fa997fca6d6042fe453385a7366fbc3dc57766e309a5e870#npm:2.0.3"],
+            ["tslib", "npm:2.1.0"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "linkType": "SOFT",
