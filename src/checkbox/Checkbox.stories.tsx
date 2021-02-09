@@ -3,7 +3,7 @@ import React from "react"
 import { Checkbox } from "./Checkbox"
 
 export default {
-    title: "Becos/Checkbox",
+    title: "library/Checkbox",
     component: Checkbox
 }
 

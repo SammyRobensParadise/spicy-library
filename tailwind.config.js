@@ -1,12 +1,12 @@
 /**
  * IMPORTANT
- * Did you make changes to the BECOS tailwind styles?
+ * Did you make changes to the library tailwind styles?
  * If yes, then you need to rebuild tailwindCSS
  * by running `yarn run build:tailwind` and restart
- * the BECOS.
+ * the library.
  *
  * This will regenerate a css file
- * in /src/styles/becos.css that includes
+ * in /src/styles/library.css that includes
  * the latest changes to `tailwind.config.js`
  */
 module.exports = {
