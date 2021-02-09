@@ -40,6 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.12.13"],
             ["@mdx-js/react", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:1.6.22"],
             ["@react-aria/button", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.3.0"],
+            ["@react-aria/checkbox", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
             ["@rollup/plugin-commonjs", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:17.1.0"],
             ["@rollup/plugin-node-resolve", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:11.1.1"],
             ["@storybook/addon-actions", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:6.2.0-alpha.24"],
@@ -3493,8 +3495,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@react-aria/i18n", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.2.0"],
             ["@react-aria/interactions", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.3.2"],
             ["@react-aria/utils", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.5.0"],
-            ["@react-stately/toggle", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.2.1"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
             ["@react-types/button", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.3.0"],
+            ["@types/react", "npm:17.0.1"],
+            ["react", "npm:17.0.1"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@react-aria/checkbox", [
+        ["npm:3.2.1", {
+          "packageLocation": "./.yarn/cache/@react-aria-checkbox-npm-3.2.1-e5e5e9dd14-804f345619.zip/node_modules/@react-aria/checkbox/",
+          "packageDependencies": [
+            ["@react-aria/checkbox", "npm:3.2.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-aria-checkbox-virtual-1d1461a594/0/cache/@react-aria-checkbox-npm-3.2.1-e5e5e9dd14-804f345619.zip/node_modules/@react-aria/checkbox/",
+          "packageDependencies": [
+            ["@react-aria/checkbox", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
+            ["@babel/runtime", "npm:7.12.13"],
+            ["@react-aria/label", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.1.1"],
+            ["@react-aria/toggle", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.1.1"],
+            ["@react-aria/utils", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.5.0"],
+            ["@react-stately/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.0.1"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
+            ["@react-types/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1"],
             ["@types/react", "npm:17.0.1"],
             ["react", "npm:17.0.1"]
           ],
@@ -3583,6 +3614,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@react-aria/label", [
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@react-aria-label-npm-3.1.1-073d17bf97-b9d107f008.zip/node_modules/@react-aria/label/",
+          "packageDependencies": [
+            ["@react-aria/label", "npm:3.1.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.1.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-aria-label-virtual-d4cb7591dd/0/cache/@react-aria-label-npm-3.1.1-073d17bf97-b9d107f008.zip/node_modules/@react-aria/label/",
+          "packageDependencies": [
+            ["@react-aria/label", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.1.1"],
+            ["@babel/runtime", "npm:7.12.13"],
+            ["@react-aria/utils", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.5.0"],
+            ["@react-types/label", "virtual:d4cb7591ddce84b83c1cd2c5eba092da0e86ae11a9b1b114d9308bf34f75012543a9b11033ad8e9a8594f52ebaaa0d8d7921b0b66a4a8df2161a75cc46fd9d91#npm:3.3.0"],
+            ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
+            ["@types/react", "npm:17.0.1"],
+            ["react", "npm:17.0.1"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@react-aria/ssr", [
         ["npm:3.0.1", {
           "packageLocation": "./.yarn/cache/@react-aria-ssr-npm-3.0.1-74104e7464-67cabf4fc9.zip/node_modules/@react-aria/ssr/",
@@ -3596,6 +3653,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@react-aria/ssr", "virtual:2eb59cd7ea8f9ef79b9176b2d1857bad032a9a63e0b88d71ac27351cafde5168c1753a284a7f58871c8233ffaa1eb07aacffcde46f19d8d9bd77f049181521a0#npm:3.0.1"],
             ["@babel/runtime", "npm:7.12.13"],
+            ["@types/react", "npm:17.0.1"],
+            ["react", "npm:17.0.1"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@react-aria/toggle", [
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@react-aria-toggle-npm-3.1.1-cfaa25e3bd-e3f625e5e7.zip/node_modules/@react-aria/toggle/",
+          "packageDependencies": [
+            ["@react-aria/toggle", "npm:3.1.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.1.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-aria-toggle-virtual-bb47723c63/0/cache/@react-aria-toggle-npm-3.1.1-cfaa25e3bd-e3f625e5e7.zip/node_modules/@react-aria/toggle/",
+          "packageDependencies": [
+            ["@react-aria/toggle", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.1.1"],
+            ["@babel/runtime", "npm:7.12.13"],
+            ["@react-aria/focus", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.2.3"],
+            ["@react-aria/interactions", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.3.2"],
+            ["@react-aria/utils", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.5.0"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
+            ["@react-types/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1"],
+            ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
+            ["@react-types/switch", "virtual:bb47723c6329de051afec9623ff377f1847af90663570885c4d366c1c1f836ed6d04aa0d8ba9e1eac56f8f45c559365a33512fa9e067708c7d93891861a3fad6#npm:3.1.1"],
             ["@types/react", "npm:17.0.1"],
             ["react", "npm:17.0.1"]
           ],
@@ -3632,6 +3719,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@react-stately/checkbox", [
+        ["npm:3.0.1", {
+          "packageLocation": "./.yarn/cache/@react-stately-checkbox-npm-3.0.1-c22024f00c-6ab9f42686.zip/node_modules/@react-stately/checkbox/",
+          "packageDependencies": [
+            ["@react-stately/checkbox", "npm:3.0.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.0.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-stately-checkbox-virtual-8683f443f6/0/cache/@react-stately-checkbox-npm-3.0.1-c22024f00c-6ab9f42686.zip/node_modules/@react-stately/checkbox/",
+          "packageDependencies": [
+            ["@react-stately/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.0.1"],
+            ["@babel/runtime", "npm:7.12.13"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
+            ["@react-stately/utils", "virtual:8683f443f612b6bdca8403a09d5a0f0915d71df8745b56c1f58e2bb0c7091ecf6d4ff9a963a9b40ecd37a75ea4968ccdf3445e1380d16854eb631ef99a294c44#npm:3.1.1"],
+            ["@react-types/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1"],
+            ["@types/react", "npm:17.0.1"],
+            ["react", "npm:17.0.1"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@react-stately/toggle", [
         ["npm:3.2.1", {
           "packageLocation": "./.yarn/cache/@react-stately-toggle-npm-3.2.1-6ed46c1b06-fbf0734b45.zip/node_modules/@react-stately/toggle/",
@@ -3640,13 +3753,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.2.1", {
-          "packageLocation": "./.yarn/$$virtual/@react-stately-toggle-virtual-56d96b5267/0/cache/@react-stately-toggle-npm-3.2.1-6ed46c1b06-fbf0734b45.zip/node_modules/@react-stately/toggle/",
+        ["virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-stately-toggle-virtual-555d4fbce7/0/cache/@react-stately-toggle-npm-3.2.1-6ed46c1b06-fbf0734b45.zip/node_modules/@react-stately/toggle/",
           "packageDependencies": [
-            ["@react-stately/toggle", "virtual:99c3c4ebb0b3067fb469900bfe9dc99261164b605e8a825ea2f5b1d9e9ba8520c7012028ed5139b1f8ae2735b4dfa7e48016320c1265afe7d29e98564cd0e41d#npm:3.2.1"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
             ["@babel/runtime", "npm:7.12.13"],
-            ["@react-stately/utils", "virtual:56d96b52677271399178ea7935b3ba984a9853ec9c066baf683433bf521041603f208def4be0245ba27c0d77f2fac6ffa0096014490a9f97e52d50d07760b557#npm:3.1.1"],
-            ["@react-types/checkbox", "virtual:56d96b52677271399178ea7935b3ba984a9853ec9c066baf683433bf521041603f208def4be0245ba27c0d77f2fac6ffa0096014490a9f97e52d50d07760b557#npm:3.2.1"],
+            ["@react-stately/utils", "virtual:8683f443f612b6bdca8403a09d5a0f0915d71df8745b56c1f58e2bb0c7091ecf6d4ff9a963a9b40ecd37a75ea4968ccdf3445e1380d16854eb631ef99a294c44#npm:3.1.1"],
+            ["@react-types/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1"],
             ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
             ["@types/react", "npm:17.0.1"],
             ["react", "npm:17.0.1"]
@@ -3666,10 +3779,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:56d96b52677271399178ea7935b3ba984a9853ec9c066baf683433bf521041603f208def4be0245ba27c0d77f2fac6ffa0096014490a9f97e52d50d07760b557#npm:3.1.1", {
-          "packageLocation": "./.yarn/$$virtual/@react-stately-utils-virtual-ec9712275c/0/cache/@react-stately-utils-npm-3.1.1-7a5091966c-82173f29f3.zip/node_modules/@react-stately/utils/",
+        ["virtual:8683f443f612b6bdca8403a09d5a0f0915d71df8745b56c1f58e2bb0c7091ecf6d4ff9a963a9b40ecd37a75ea4968ccdf3445e1380d16854eb631ef99a294c44#npm:3.1.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-stately-utils-virtual-4bc70c837f/0/cache/@react-stately-utils-npm-3.1.1-7a5091966c-82173f29f3.zip/node_modules/@react-stately/utils/",
           "packageDependencies": [
-            ["@react-stately/utils", "virtual:56d96b52677271399178ea7935b3ba984a9853ec9c066baf683433bf521041603f208def4be0245ba27c0d77f2fac6ffa0096014490a9f97e52d50d07760b557#npm:3.1.1"],
+            ["@react-stately/utils", "virtual:8683f443f612b6bdca8403a09d5a0f0915d71df8745b56c1f58e2bb0c7091ecf6d4ff9a963a9b40ecd37a75ea4968ccdf3445e1380d16854eb631ef99a294c44#npm:3.1.1"],
             ["@babel/runtime", "npm:7.12.13"],
             ["@types/react", "npm:17.0.1"],
             ["react", "npm:17.0.1"]
@@ -3712,10 +3825,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:56d96b52677271399178ea7935b3ba984a9853ec9c066baf683433bf521041603f208def4be0245ba27c0d77f2fac6ffa0096014490a9f97e52d50d07760b557#npm:3.2.1", {
-          "packageLocation": "./.yarn/$$virtual/@react-types-checkbox-virtual-08bee2896b/0/cache/@react-types-checkbox-npm-3.2.1-690f6791de-a38bb9ddd3.zip/node_modules/@react-types/checkbox/",
+        ["virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-types-checkbox-virtual-4a60740a6c/0/cache/@react-types-checkbox-npm-3.2.1-690f6791de-a38bb9ddd3.zip/node_modules/@react-types/checkbox/",
           "packageDependencies": [
-            ["@react-types/checkbox", "virtual:56d96b52677271399178ea7935b3ba984a9853ec9c066baf683433bf521041603f208def4be0245ba27c0d77f2fac6ffa0096014490a9f97e52d50d07760b557#npm:3.2.1"],
+            ["@react-types/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1"],
+            ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
+            ["@types/react", "npm:17.0.1"],
+            ["react", "npm:17.0.1"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@react-types/label", [
+        ["npm:3.3.0", {
+          "packageLocation": "./.yarn/cache/@react-types-label-npm-3.3.0-573bd680c2-468da505e7.zip/node_modules/@react-types/label/",
+          "packageDependencies": [
+            ["@react-types/label", "npm:3.3.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:d4cb7591ddce84b83c1cd2c5eba092da0e86ae11a9b1b114d9308bf34f75012543a9b11033ad8e9a8594f52ebaaa0d8d7921b0b66a4a8df2161a75cc46fd9d91#npm:3.3.0", {
+          "packageLocation": "./.yarn/$$virtual/@react-types-label-virtual-d6b9ad2611/0/cache/@react-types-label-npm-3.3.0-573bd680c2-468da505e7.zip/node_modules/@react-types/label/",
+          "packageDependencies": [
+            ["@react-types/label", "virtual:d4cb7591ddce84b83c1cd2c5eba092da0e86ae11a9b1b114d9308bf34f75012543a9b11033ad8e9a8594f52ebaaa0d8d7921b0b66a4a8df2161a75cc46fd9d91#npm:3.3.0"],
             ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
             ["@types/react", "npm:17.0.1"],
             ["react", "npm:17.0.1"]
@@ -3738,6 +3874,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0", {
           "packageLocation": "./.yarn/$$virtual/@react-types-shared-virtual-e606411f9f/0/cache/@react-types-shared-npm-3.3.0-d4f3161c4a-a704fa2479.zip/node_modules/@react-types/shared/",
           "packageDependencies": [
+            ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
+            ["@types/react", "npm:17.0.1"],
+            ["react", "npm:17.0.1"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@react-types/switch", [
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@react-types-switch-npm-3.1.1-d7e01320d2-c9859bd438.zip/node_modules/@react-types/switch/",
+          "packageDependencies": [
+            ["@react-types/switch", "npm:3.1.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:bb47723c6329de051afec9623ff377f1847af90663570885c4d366c1c1f836ed6d04aa0d8ba9e1eac56f8f45c559365a33512fa9e067708c7d93891861a3fad6#npm:3.1.1", {
+          "packageLocation": "./.yarn/$$virtual/@react-types-switch-virtual-02d4a8ba04/0/cache/@react-types-switch-npm-3.1.1-d7e01320d2-c9859bd438.zip/node_modules/@react-types/switch/",
+          "packageDependencies": [
+            ["@react-types/switch", "virtual:bb47723c6329de051afec9623ff377f1847af90663570885c4d366c1c1f836ed6d04aa0d8ba9e1eac56f8f45c559365a33512fa9e067708c7d93891861a3fad6#npm:3.1.1"],
+            ["@react-types/checkbox", "virtual:1d1461a594be0cb14fc003edb7ba1a89ed895678980b055b12ae4393d3d6d5f01dc0f5d7ff3997d72cd130ea500ee78f4de013d2817c976e0a098a8f641f4675#npm:3.2.1"],
             ["@react-types/shared", "virtual:83da1fdefc3637e5038c1fa220e9565791fc2ecf784c936edc18c05949174a0fccb923081bbd0a3082c2a67d2df7c66f012d7200f8ea1d1e528775fce7a3e923#npm:3.3.0"],
             ["@types/react", "npm:17.0.1"],
             ["react", "npm:17.0.1"]
@@ -3861,6 +4021,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.12.13"],
             ["@mdx-js/react", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:1.6.22"],
             ["@react-aria/button", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.3.0"],
+            ["@react-aria/checkbox", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
+            ["@react-stately/toggle", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:3.2.1"],
             ["@rollup/plugin-commonjs", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:17.1.0"],
             ["@rollup/plugin-node-resolve", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:11.1.1"],
             ["@storybook/addon-actions", "virtual:f4e6e17bc7c68d669d8607c51c9dbde41f1b7125fc5c016cbfc5878a503ba1997e1d502bad8f475624ee566f0fc776d5b021f3bc83941cbd1b4c0b5ad14ab7da#npm:6.2.0-alpha.24"],

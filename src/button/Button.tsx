@@ -1,8 +1,8 @@
 import React from "react"
 import { useButton } from "@react-aria/button"
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Button = (props: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     children: { [x: string]: any }
 }): JSX.Element => {
     const ref = React.useRef()
