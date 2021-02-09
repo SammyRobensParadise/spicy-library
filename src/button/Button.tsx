@@ -1,37 +1,39 @@
-import React, { MouseEvent } from "react"
+import React from "react"
+import { useButton } from "@react-aria/button"
 
-export interface ButtonInterface {
-    primary?: boolean
-    backgroundColor?: string
-    onClick?: (event: MouseEvent<HTMLButtonElement>) => void
-    label: string
-    props: {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        [x: string]: any
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const Button = (props: {
+    children: { [x: string]: any }
+}): JSX.Element => {
+    const ref = React.useRef()
+    const { buttonProps } = useButton(props, ref)
+    let mode = "bg-blue-500"
+    switch (buttonProps.type) {
+        case "primary": {
+            mode = "bg-blue-500"
+            break
+        }
+        case "secondary": {
+            mode = "bg-green-500"
+            break
+        }
+        case "warning": {
+            mode = "bg-red-500"
+            break
+        }
+        default: {
+            mode = "bg-blue-500"
+            break
+        }
     }
-}
 
-export const Button = ({
-    primary,
-    backgroundColor,
-    label,
-    ...props
-}: ButtonInterface): JSX.Element => {
-    const mode = primary ? "bg-blue-500" : "bg-red-500"
     return (
         <button
-            type="button"
+            {...buttonProps}
+            ref={ref}
             className={`${mode} text-white px-4 py-2 rounded-md shadow-sm`}
-            style={backgroundColor && { backgroundColor }}
-            {...props}
         >
-            {label}
+            {props.children}
         </button>
     )
-}
-
-Button.defaultProps = {
-    backgroundColor: null,
-    primary: false,
-    onClick: undefined
 }

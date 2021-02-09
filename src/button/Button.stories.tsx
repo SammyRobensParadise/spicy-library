@@ -4,33 +4,30 @@ import { Button } from "./Button"
 
 export default {
     title: "Becos/Button",
-    component: Button,
-    argTypes: {
-        backgroundColor: { control: "color" }
-    }
+    component: Button
 }
 
-const Template = (args) => <Button {...args} />
+const Template = (args) => <Button {...args}>Button</Button>
 
 export const Primary = Template.bind({})
 Primary.args = {
-    primary: true,
-    label: "Button"
+    type: "primary",
+    onClick: () => {
+        alert("Primary")
+    }
 }
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-    label: "Button"
+    type: "secondary",
+    onClick: () => {
+        alert("Secondary")
+    }
 }
-
-export const Large = Template.bind({})
-Large.args = {
-    size: "large",
-    label: "Button"
-}
-
-export const Small = Template.bind({})
-Small.args = {
-    size: "small",
-    label: "Button"
+export const Warning = Template.bind({})
+Warning.args = {
+    type: "warning",
+    onClick: () => {
+        alert("Warning")
+    }
 }
