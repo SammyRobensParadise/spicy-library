@@ -1,9 +1,15 @@
 {
-    "name": "spicy-library",
+    "name": "@sammyrobensparadise/spicy-library",
     "version": "0.1.0",
     "main": "./build/index.js",
     "module": "./build/index.es.js",
-    "repository": "git://github.com:SammyRobensParadise/spicy-library.git",
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com/SammyRobensParadise/spicy-library.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "devDependencies": {
         "@babel/core": "^7.12.13",
         "@mdx-js/react": "^1.6.22",
@@ -59,8 +65,5 @@
     "peerDependencies": {
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
     }
 }
