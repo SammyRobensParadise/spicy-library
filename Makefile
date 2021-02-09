@@ -8,6 +8,7 @@ help:
 	@echo "builds   - builds library container"
 	@echo "fresh    - use if this is a fresh install"
 	@echo "install  - Sets version of Yarn to Yarn 2 and installs dependencies"
+	@echo "library  - Builds the library in the /build directory"
 	@echo "stop     - stops library docker container"
 	@echo "styles   - bundles the latest tailwind css for use"
 	@echo "up       - builds and starts library container"
@@ -44,6 +45,14 @@ install:
 	@echo "Done! ✨"
 fresh: install styles builds up
 	@echo "Success 🎉"
+library:
+	@echo "Building lib... "
+	yarn run build:lib
+	@echo "Done! ✨"
+publish:
+	@echo "Publishing..."
+	yarn run build:lib && cd ./build && npm publish
+	@echo "Done! ✨"
 
 
 

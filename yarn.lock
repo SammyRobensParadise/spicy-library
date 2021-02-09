@@ -2088,6 +2088,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sammyrobensparadise/spicy-library@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sammyrobensparadise/spicy-library@workspace:."
+  dependencies:
+    "@babel/core": ^7.12.13
+    "@mdx-js/react": ^1.6.22
+    "@rollup/plugin-commonjs": ^17.1.0
+    "@rollup/plugin-node-resolve": ^11.1.1
+    "@storybook/addon-actions": ^6.2.0-alpha.24
+    "@storybook/addon-docs": ^6.2.0-alpha.24
+    "@storybook/addon-essentials": ^6.2.0-alpha.24
+    "@storybook/addon-links": ^6.2.0-alpha.24
+    "@storybook/addon-postcss": latest
+    "@storybook/react": ^6.2.0-alpha.24
+    "@testing-library/jest-dom": ^5.11.9
+    "@testing-library/react": ^11.2.5
+    "@types/jest": ^26.0.20
+    "@types/node": ^14.14.25
+    "@types/react": ^17.0.1
+    "@types/testing-library__react": ^10.2.0
+    "@typescript-eslint/eslint-plugin": ^4.14.2
+    "@typescript-eslint/parser": ^4.14.2
+    "@yarnpkg/pnpify": ^2.4.0
+    autoprefixer: latest
+    babel-loader: ^8.2.2
+    core-js: ^3.8.3
+    eslint: ^7.19.0
+    eslint-config-prettier: ^7.2.0
+    eslint-plugin-jest: ^24.1.3
+    eslint-plugin-prettier: ^3.3.1
+    eslint-plugin-react: ^7.22.0
+    jest: ^26.6.3
+    postcss: latest
+    postcss-cli: latest
+    postcss-loader: ^5.0.0
+    prettier: ^2.2.1
+    react: ^17.0.1
+    react-dom: ^17.0.1
+    rollup: ^2.38.5
+    rollup-plugin-css-porter: ^1.0.2
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-styles: ^3.14.1
+    rollup-plugin-typescript2: ^0.29.0
+    tailwindcss: latest
+    ts-jest: ^26.5.0
+    tslib: ^2.1.0
+    typescript: ^4.1.3
+  peerDependencies:
+    react: ^17.0.1
+    react-dom: ^17.0.1
+  languageName: unknown
+  linkType: soft
+
 "@scarf/scarf@npm:^1.1.0":
   version: 1.1.0
   resolution: "@scarf/scarf@npm:1.1.0"
@@ -15109,59 +15162,6 @@ resolve@1.17.0:
   checksum: 21e38ec5dd970643f78d37700b6c6ebd42d68c0e4618db914a56cabd2fe4cc1608404ce6abc7535d5165c6555560e821553d06edf6af6ae439617883cf932c0e
   languageName: node
   linkType: hard
-
-"spicy-library@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "spicy-library@workspace:."
-  dependencies:
-    "@babel/core": ^7.12.13
-    "@mdx-js/react": ^1.6.22
-    "@rollup/plugin-commonjs": ^17.1.0
-    "@rollup/plugin-node-resolve": ^11.1.1
-    "@storybook/addon-actions": ^6.2.0-alpha.24
-    "@storybook/addon-docs": ^6.2.0-alpha.24
-    "@storybook/addon-essentials": ^6.2.0-alpha.24
-    "@storybook/addon-links": ^6.2.0-alpha.24
-    "@storybook/addon-postcss": latest
-    "@storybook/react": ^6.2.0-alpha.24
-    "@testing-library/jest-dom": ^5.11.9
-    "@testing-library/react": ^11.2.5
-    "@types/jest": ^26.0.20
-    "@types/node": ^14.14.25
-    "@types/react": ^17.0.1
-    "@types/testing-library__react": ^10.2.0
-    "@typescript-eslint/eslint-plugin": ^4.14.2
-    "@typescript-eslint/parser": ^4.14.2
-    "@yarnpkg/pnpify": ^2.4.0
-    autoprefixer: latest
-    babel-loader: ^8.2.2
-    core-js: ^3.8.3
-    eslint: ^7.19.0
-    eslint-config-prettier: ^7.2.0
-    eslint-plugin-jest: ^24.1.3
-    eslint-plugin-prettier: ^3.3.1
-    eslint-plugin-react: ^7.22.0
-    jest: ^26.6.3
-    postcss: latest
-    postcss-cli: latest
-    postcss-loader: ^5.0.0
-    prettier: ^2.2.1
-    react: ^17.0.1
-    react-dom: ^17.0.1
-    rollup: ^2.38.5
-    rollup-plugin-css-porter: ^1.0.2
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-styles: ^3.14.1
-    rollup-plugin-typescript2: ^0.29.0
-    tailwindcss: latest
-    ts-jest: ^26.5.0
-    tslib: ^2.1.0
-    typescript: ^4.1.3
-  peerDependencies:
-    react: ^17.0.1
-    react-dom: ^17.0.1
-  languageName: unknown
-  linkType: soft
 
 "split-on-first@npm:^1.0.0":
   version: 1.1.0
