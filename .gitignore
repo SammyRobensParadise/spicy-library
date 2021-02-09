@@ -12,5 +12,6 @@ build
 
 src/styles/theme.css
 
+storybook-static
 
 .npmrc

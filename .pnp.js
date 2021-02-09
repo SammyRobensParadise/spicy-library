@@ -4599,7 +4599,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "promise-inflight",
-        "virtual:0a601d06b9bb877e28dc3c2bf132b715e8c8db39518cb037053d3e960e698b842f18c4ad29c4dbd116bd79f31c565cbbc9741fa4573e2713fab36fd780658f57#npm:1.0.1"
+        "virtual:5c6c90d2e821c49a621166cce6a7ad53be7b46ba8751aa19ef38c8c62676f0bd88a840af9d2dab9a9b27b5ebef7e6d9ca49f6a742d29cd8db3b5c4801dc357c1#npm:1.0.1"
       ],
       [
         "promise.allsettled",
@@ -14250,7 +14250,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mississippi", "npm:3.0.0"],
             ["mkdirp", "npm:0.5.5"],
             ["move-concurrently", "npm:1.0.1"],
-            ["promise-inflight", "virtual:0a601d06b9bb877e28dc3c2bf132b715e8c8db39518cb037053d3e960e698b842f18c4ad29c4dbd116bd79f31c565cbbc9741fa4573e2713fab36fd780658f57#npm:1.0.1"],
+            ["promise-inflight", "virtual:5c6c90d2e821c49a621166cce6a7ad53be7b46ba8751aa19ef38c8c62676f0bd88a840af9d2dab9a9b27b5ebef7e6d9ca49f6a742d29cd8db3b5c4801dc357c1#npm:1.0.1"],
             ["rimraf", "npm:2.7.1"],
             ["ssri", "npm:6.0.1"],
             ["unique-filename", "npm:1.1.1"],
@@ -15691,10 +15691,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["debug", "virtual:0a3559c13bfb93d26a2b998652bc9ef7a06479e57829d89d855e3a8e1819edb01e30e267dd8d9ed1baa236fdff98a98889884952f3fbad96330d5b64748f3f3e#npm:4.3.2"],
             ["ms", "npm:2.1.2"],
-            ["supports-color", null]
-          ],
-          "packagePeers": [
-            "supports-color"
+            ["supports-color", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }],
@@ -15703,10 +15700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["debug", "virtual:1f43412872fd884ea1247d77cd236ac89b1b489fe66cda1675f885395b16fa7be38fca8f4ee0ddb7d79481d2482886d2d62a39f86813baeaf755095851975ab1#npm:3.2.7"],
             ["ms", "npm:2.1.3"],
-            ["supports-color", null]
-          ],
-          "packagePeers": [
-            "supports-color"
+            ["supports-color", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }],
@@ -15715,10 +15709,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["debug", "virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9"],
             ["ms", "npm:2.0.0"],
-            ["supports-color", null]
-          ],
-          "packagePeers": [
-            "supports-color"
+            ["supports-color", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -23475,25 +23466,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:0a601d06b9bb877e28dc3c2bf132b715e8c8db39518cb037053d3e960e698b842f18c4ad29c4dbd116bd79f31c565cbbc9741fa4573e2713fab36fd780658f57#npm:1.0.1", {
-          "packageLocation": "./.yarn/$$virtual/promise-inflight-virtual-679eed6a0f/0/cache/promise-inflight-npm-1.0.1-5bb925afac-c06bce0fc6.zip/node_modules/promise-inflight/",
-          "packageDependencies": [
-            ["promise-inflight", "virtual:0a601d06b9bb877e28dc3c2bf132b715e8c8db39518cb037053d3e960e698b842f18c4ad29c4dbd116bd79f31c565cbbc9741fa4573e2713fab36fd780658f57#npm:1.0.1"],
-            ["bluebird", "npm:3.7.2"]
-          ],
-          "packagePeers": [
-            "bluebird"
-          ],
-          "linkType": "HARD",
-        }],
         ["virtual:5c6c90d2e821c49a621166cce6a7ad53be7b46ba8751aa19ef38c8c62676f0bd88a840af9d2dab9a9b27b5ebef7e6d9ca49f6a742d29cd8db3b5c4801dc357c1#npm:1.0.1", {
           "packageLocation": "./.yarn/$$virtual/promise-inflight-virtual-3c4b171d8e/0/cache/promise-inflight-npm-1.0.1-5bb925afac-c06bce0fc6.zip/node_modules/promise-inflight/",
           "packageDependencies": [
             ["promise-inflight", "virtual:5c6c90d2e821c49a621166cce6a7ad53be7b46ba8751aa19ef38c8c62676f0bd88a840af9d2dab9a9b27b5ebef7e6d9ca49f6a742d29cd8db3b5c4801dc357c1#npm:1.0.1"],
-            ["bluebird", null]
-          ],
-          "packagePeers": [
-            "bluebird"
+            ["bluebird", "npm:3.7.2"]
           ],
           "linkType": "HARD",
         }]
