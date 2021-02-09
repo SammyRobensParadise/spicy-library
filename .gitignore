@@ -5,8 +5,8 @@
 .yarn/sdks
 .yarn/versions
 
-**/node_modules/**
-node_modules/**
 node_modules
-
+node_modules/.cache
 build
+
+src/styles/theme.css
