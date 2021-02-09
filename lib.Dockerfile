@@ -1,5 +1,4 @@
-
-FROM node:15.8.0-alpine as base
+FROM node:14-alpine3.12 as base
 
 WORKDIR /usr/src/spicy-library/
 RUN yarn set version berry
