@@ -1,4 +1,5 @@
-FROM node:14-alpine3.12 as base
+
+FROM node:15.8.0-alpine as base
 
 WORKDIR /usr/src/spicy-library/
 RUN yarn set version berry
@@ -9,8 +10,7 @@ COPY . .
 # @storybook/components does not
 # declare regenerator-runtime as a dependency
 # when the issue is fixed we can remove this. 
-RUN cat .yarnrc.yml
-RUN echo -e '\npnpMode: "loose"' >> .yarnrc.yml
+# RUN echo -e '\npnpMode: "loose"' >> .yarnrc.yml
 RUN yarn install --immutable
 EXPOSE 6006
 CMD [ "yarn", "start:storybook" ]
