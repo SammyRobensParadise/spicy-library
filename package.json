@@ -1,11 +1,12 @@
 {
     "name": "@sammyrobensparadise/spicy-library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "./build/index.js",
     "module": "./build/index.es.js",
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com/SammyRobensParadise/spicy-library.git"
+        "url": "ssh://git@github.com/SammyRobensParadise/spicy-library.git",
+        "directory": "build"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
