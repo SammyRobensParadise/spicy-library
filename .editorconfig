@@ -1,0 +1,34 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.{js,jsx,ts,tsx,py,json,yml,yaml}]
+charset = utf-8
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+[*.sh]
+binary_next_line   = true  # like -bn
+keep_padding       = true  # like -kp
+; Note: the following options can be enabled in a future PR if desired
+; shell_variant      = posix # like -ln=posix
+; switch_case_indent = true  # like -ci
+; space_redirects    = true  # like -sr
+; function_next_line = true  # like -fn
+
+# Ignore the entire "node_modules" and "venv" directories.
+[**/node_modules/**]
+ignore = true
+[**/venv/**]
+ignore = true
+
+[{Makefile,**.mk}]
+# Use tabs for indentation (Makefiles require tabs)
+indent_style = tab
