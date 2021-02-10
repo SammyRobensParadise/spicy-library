@@ -7,6 +7,8 @@ services:
         build:
             context: ./
             dockerfile: lib.Dockerfile
+        environment:
+            BROWSER: none
         volumes:
             - .:/usr/src/spicy-library/
         ports:
