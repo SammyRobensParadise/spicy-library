@@ -11,7 +11,7 @@
  */
 module.exports = {
     // purge any unused classNames from globs
-    purge: [],
+    purge: ["./src/**/*"],
     darkMode: false,
     theme: {
         extend: {}
